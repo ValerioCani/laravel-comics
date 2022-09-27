@@ -1,12 +1,14 @@
 <header>
     <div class="container">
-        <a href="#">
+        <a href="{{route('homepage')}}">
             <img src="{{asset('images/dc-logo.png')}}" alt="DC logo">
         </a>
         <ul>
-            <li foreach( $link as )>
-                <a href="#"></a>
+            @foreach(config('navbar_links') as $link)
+            <li>
+                <a href="{{route($link['url'])}}">{{$link['text']}}</a>
             </li>
+            @endforeach
         </ul>
     </div>
 </header>

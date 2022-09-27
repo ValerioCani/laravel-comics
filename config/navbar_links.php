@@ -4,52 +4,52 @@
 return [
     [
         "text"=> "CHARACTERS",
-        "url"=> "#",
+        "url"=> "characters",
         "active"=> "false"
     ],
     [
         "text"=> "COMICS",
-        "url"=> "#",
+        "url"=> "collectibles",
         "active"=> "false"
     ],
     [
         "text"=> "MOVIES",
-        "url"=> "#",
+        "url"=> "characters",
         "active"=> "false"
     ],
     [
         "text"=> "TV",
-        "url"=> "#",
+        "url"=> "comics",
         "active"=> "false"
     ],
     [
         "text"=> "GAMES",
-        "url"=> "#",
+        "url"=> "fans",
         "active"=> "false"
     ],
     [
         "text"=> "COLLECTIBLES",
-        "url"=> "#",
+        "url"=> "movies",
         "active"=> "false"
     ],
     [
         "text"=> "VIDEOS",
-        "url"=> "#",
+        "url"=> "news",
         "active"=> "false"
     ],
     [
         "text"=> "FANS",
-        "url"=> "#",
+        "url"=> "shop",
         "active"=> "false"
     ],
     [
         "text"=> "NEWS",
-        "url"=> "#",
+        "url"=> "tv",
         "active"=> "false"
     ],
     [
         "text"=> "SHOP",
-        "url"=> "#",
+        "url"=> "videos",
         "active"=> "false"
     ]
 ];
