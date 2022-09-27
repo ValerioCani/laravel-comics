@@ -1,0 +1,62 @@
+footer{
+    #upper_footer{
+    background-image: url('/images/footer-bg.jpg');
+    background-size: cover;
+        .container{
+        height: 370px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+            .columns{
+            display: flex;
+            color: $primary_text_color;
+                div{
+                margin: 0 2rem 0 0;
+                    li{
+                    padding: 3px 0 ;
+                        &:hover{
+                        color: $secondary_text_color;
+                        }
+
+                        a{
+                        color:inherit;
+                        font-size: 12px;
+                        font-weight:100;
+                        }
+                    }
+                }
+            }
+        }
+        .columns h3{
+            padding: 1rem 0 1rem;
+        }
+    }
+
+    #lower_footer{
+    height: 110px;
+    background-color: $footer_back_color;
+        button{
+        background-color: $footer_back_color;
+        font-size: 17px;
+        font-weight: 900;
+        color: $primary_text_color;
+        padding: 8px;
+        border: solid 2px $brand_primay_color;
+        }
+        div{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+            h3{
+                display:inline-block;
+                color: $secondary_text_color;
+                margin: 20px;
+            }
+            img{
+                margin: 8px;
+            }
+        }
+    }
+}

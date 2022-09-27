@@ -3,5 +3,5 @@
 @section('page-title', 'homepage')
 
 @section('content')
-    <h1>pagina homepage</h1>
+    <h1>pagina home</h1>
 @endsection
