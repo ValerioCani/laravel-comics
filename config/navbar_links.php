@@ -9,47 +9,47 @@ return [
     ],
     [
         "text"=> "COMICS",
-        "url"=> "collectibles",
-        "active"=> "false"
-    ],
-    [
-        "text"=> "MOVIES",
-        "url"=> "characters",
-        "active"=> "false"
-    ],
-    [
-        "text"=> "TV",
         "url"=> "comics",
         "active"=> "false"
     ],
     [
-        "text"=> "GAMES",
-        "url"=> "fans",
-        "active"=> "false"
-    ],
-    [
-        "text"=> "COLLECTIBLES",
+        "text"=> "MOVIES",
         "url"=> "movies",
         "active"=> "false"
     ],
     [
-        "text"=> "VIDEOS",
-        "url"=> "news",
-        "active"=> "false"
-    ],
-    [
-        "text"=> "FANS",
-        "url"=> "shop",
-        "active"=> "false"
-    ],
-    [
-        "text"=> "NEWS",
+        "text"=> "TV",
         "url"=> "tv",
         "active"=> "false"
     ],
     [
-        "text"=> "SHOP",
+        "text"=> "GAMES",
+        "url"=> "games",
+        "active"=> "false"
+    ],
+    [
+        "text"=> "COLLECTIBLES",
+        "url"=> "collectibles",
+        "active"=> "false"
+    ],
+    [
+        "text"=> "VIDEOS",
         "url"=> "videos",
+        "active"=> "false"
+    ],
+    [
+        "text"=> "FANS",
+        "url"=> "fans",
+        "active"=> "false"
+    ],
+    [
+        "text"=> "NEWS",
+        "url"=> "news",
+        "active"=> "false"
+    ],
+    [
+        "text"=> "SHOP",
+        "url"=> "shop",
         "active"=> "false"
     ]
 ];
